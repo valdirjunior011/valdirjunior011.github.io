@@ -93,7 +93,7 @@
 
 <br />
 
-  ![Snake animation](https://github.com/valdirjunior011/Scripts_Infrastructure/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/valdirjunior011/valdirjunior011/blob/output/github-contribution-grid-snake.svg)
 
 
 ----
