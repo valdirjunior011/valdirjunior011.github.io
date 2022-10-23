@@ -85,6 +85,10 @@
 
 <br />
 
+<<<<<<< HEAD
 ![Snake animation](https://github.com/valdirjunior011/valdirjunior011/blob/output/github-contribution-grid-snake.svg)
+=======
+  ![Snake animation](https://github.com/valdirjunior011/valdirjunior011/blob/output/github-contribution-grid-snake.svg)
+>>>>>>> 305a75404a570d54d323f04e9977e561de88d7f3
 
 ---
