@@ -60,7 +60,10 @@
 </a>
 <a href="https://instagram.com/valdirjunior.011" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>  
+</a>
+<a href="https://valdirjunior011.github.io/webpage" target="_blank">
+<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Not%20Running&style=for-the-badge&up_color=green&up_message=Running&url=https%3A%2F%2Fvaldirjunior011.github.io%2Fwebpage" />
+</a>
 </div>  
   
 
