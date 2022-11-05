@@ -40,7 +40,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #0019fe;
+    background: #80b3ff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -77,8 +77,8 @@ nav img {
     cursor: pointer;
 }
 .hero-btn:hover {
-    border: 1px solid #0019fe;
-    background: #0019fe;
+    border: 1px solid #80b3ff;
+    background: #80b3ff;
     transition: 1s;
 }
 nav .fa {
@@ -90,7 +90,7 @@ nav .fa {
     }
     .nav-links{
         position: absolute;
-        background: #0019fe;
+        background: #80b3ff;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -117,4 +117,63 @@ nav .fa {
     .nav-links ul{
         padding: 30px;
     }
+}
+/* About Me Section */
+.aboutMe {
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+    text-align: right;
+    padding-top: 100px;
+}
+.intro h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+.intro p {
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+    text-align: justify;
+    display: flex;
+    width: 50%;
+    float: right;
+}
+.img_profile {
+    background-image: linear-gradient(rgba(29, 36, 61, 0.7),rgba(47, 53, 76, 0.7)),url(images/profile.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    margin-bottom: 5%;
+    margin-right: 60%;
+    padding: 250px;
+}
+@media(max-width: 700px){
+    .aboutMe{
+        flex-direction: column;
+    }
+    .intro p{
+        color: #fff;
+        text-align: justify;
+        margin: 0%;
+        margin-right: 80%;
+        display: flex;
+    }
+    .img_profile{
+        padding: auto;
+    }
+}
+.btn {
+    display: flex;
+    text-decoration: none;
+    color: #0b0b0b;
+    border: 2px solid #80b3ff;
+    padding: 8px 24px;
+    font-size: 12px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 25%;
 }

@@ -15,14 +15,15 @@
     <title>Valdir Junior</title>
   </head>
   <body>
+    <!--Main Page and Links/Menu-->
     <section class="header">
       <nav>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">About Me</a></li>
+            <li><a href="#about">About Me</a></li>
             <li><a href="">Experiences</a></li>
-            <li><a href="">CV Donwload</a></li>
+            <li><a href="curriculum/Valdir_Junior.docx">CV Download</a></li>
             <li><a href="">Contact Me</a></li>
           </ul>
         </div>
@@ -33,16 +34,47 @@
         <p>I am a IT Professional with long experience and solid knowledge, Implementationing and configurationing servers and their services.
           <br>
           <br>
-          <a href="" class="hero-btn">Read More </a>
+          <a href="#about" class="hero-btn">Read More </a>
         </p>
       </div>
     </section>
     <!-- About Me-->
+    <section class="aboutMe" id="about">
+      <div class="intro">
+        <h1>About Me</h1>
+        <br>
+        <p> I'm a multi-disciplinary IT engineer who have a experience on implementation and configuration of servers and their services and own such skills:          
+          <br>
+          <br>
+          Cloud -> AWS and Azure <br>
+          Configuration Manager -> Ansible, chef <br>
+          Provision Manager -> Terraform <br>
+          Logs -> GrayLog and SPlunk <br>
+          Monitoring -> PRTG, Zabbix, Prometheus <br>
+          Citrix Tecnologies -> Citrix Studio and Citrix Hypervision <br>
+          Microsoft Tecnologies and Services-> Windows Servers, Hyper-V, Active Diretory, DNS, DHCP, Federation, <br>
+          Active Directory, DNS, DHCP, GPO, File Server, IIS <br>
+          Firewalls -> Fortigate and Cisco ASA <br>
+          Vmware -> Vcenter and vpshere <br>
+          In Cisco switches do settings and troubleshooting (VLANs / spanning tree/port security) for example. <br>
+          routing settings in cisco routers (OSPFv2 / eigrp / RIPv2). <br>
+          Service automation with Powershell and shell script <br>
+          <br>
+          Where in many companys acting as lead of the infrastructure team in internal projects to implement or improve services.
+          <br>
+          I am a guy passionate about technology and learning new techniques and acquiring new knowledge <br>
+          It's been 12 years of career. <br>
+          Feel free to <a href="curriculum/Valdir_Junior.docx" class="btn">Download my updated Curriculum </a>
+        </p>
+      </div>  
+      <div class="img_profile"></div>
+
+    </section>
     <!-- Experiences/Projects-->
     <!-- CV Donwload-->
     <!-- Contact Me-->
     <!-- Footer Icons Social Medias-->
-    <!---Javascript-->
+    <!---Javascript for Mobile Menu-->
     <script>
       var navLinks = document.getElementById("navLinks");
       function showMenu(){
