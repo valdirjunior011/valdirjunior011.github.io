@@ -121,10 +121,7 @@ nav .fa {
 /* About Me Section */
 .aboutMe {
     min-height: 100vh;
-    width: 90%;
-    margin: auto;
-    text-align: right;
-    padding-top: 100px;
+    width: 100%;
 }
 .intro h1 {
     font-size: 36px;
@@ -135,7 +132,6 @@ nav .fa {
     color: #777;
     font-size: 14px;
     line-height: 22px;
-    padding: 15px;
     text-align: justify;
     display: flex;
     width: 50%;
@@ -143,12 +139,12 @@ nav .fa {
 }
 .img_profile {
     background-image: linear-gradient(rgba(29, 36, 61, 0.7),rgba(47, 53, 76, 0.7)),url(images/profile.jpg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
-    border-radius: 60px;
-    margin-bottom: 5%;
-    margin-right: 60%;
-    padding: 250px;
+    border-radius: 70px;
+    padding: 240px;
+    width: 25%;
+    margin-left: 20px;
 }
 .btn {
     display: flex;
@@ -160,7 +156,18 @@ nav .fa {
     background: transparent;
     position: absolute;
     cursor: pointer;
-    margin-top: 25%;
+    margin-top: 15%;
+    bottom: -600px;
+}
+.fa{
+    display: block;
+    color:rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;  
+    position: absolute;
+    bottom: -600;
+    right: 0px; 
 }
 @media(max-width: 700px){
     .aboutMe{
