@@ -7,21 +7,36 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # Checkout repository
       - name: Checkout
         uses: actions/checkout@v3
 
+      # Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm ci
+      # Cache npm dependencies to speed up subsequent installs
+      - name: Cache npm dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
 
+      # Install dependencies using npm ci
+      - name: Install dependencies
+        run: npm ci --verbose
+
+      # Build the project and export
       - name: Build and Export
         run: npm run export
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
