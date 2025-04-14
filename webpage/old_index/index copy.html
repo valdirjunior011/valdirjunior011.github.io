@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style copy.css">
+    <title>Valdir Junior</title>
+</head>
+
+<body>
+    <!-- Mobile Menu Toggle -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-- Main Page and Navigation Menu -->
+    <section class="header" id="First">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="">Experiences</a></li>
+                    <li><a href="curriculum/Valdir_Junior.docx">CV Download</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Hi, I am Valdir Junior</h1>
+            <p>I am an IT Professional with extensive experience in implementing and configuring servers and their services.
+                <br><br>
+                <a href="#about" class="hero-btn">Read More</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="aboutMe" id="about">
+      <div class="intro">
+          <div class="content">
+              <h1>About Me</h1>
+              <p>I'm a multi-disciplinary IT engineer with experience in implementing and configuring servers and their services. I possess skills in:</p>
+              <ul>
+                  <li>Cloud -> AWS and Azure</li>
+                  <li>Configuration Manager -> Ansible, Chef</li>
+                  <li>Provision Manager -> Terraform</li>
+                  <li>Logs -> GrayLog and Splunk</li>
+                  <li>Monitoring -> PRTG, Zabbix, Prometheus</li>
+                  <li>Citrix Technologies -> Citrix Studio and Citrix Hypervisor</li>
+                  <li>Microsoft Technologies and Services -> Windows Servers, Hyper-V, Active Directory, DNS, DHCP, Federation, Active Directory, DNS, DHCP, GPO, File Server, IIS</li>
+                  <li>Firewalls -> Fortigate and Cisco ASA</li>
+                  <li>VMware -> vCenter and vSphere</li>
+                  <li>Configuring and troubleshooting Cisco switches (VLANs, Spanning Tree, Port Security), and routing settings in Cisco routers (OSPFv2, EIGRP, RIPv2)</li>
+                  <li>Service automation with PowerShell and shell scripts</li>
+              </ul>
+              <p>I have led infrastructure teams in internal projects to implement or improve services for many companies. I am passionate about technology and always eager to learn new techniques and acquire new knowledge. It's been 12 years in my career.</p>
+              <a href="curriculum/Valdir_Junior.docx" class="btn">Download my updated Curriculum</a>
+          </div>
+      </div>
+      <div class="img_profile"></div>
+      <i class="fa fa-arrow-up" onclick="location.href = '#First'"></i>
+  </section>
+  
+
+    <!-- Experiences/Projects Section -->
+    <!-- Contact Me Section -->
+    <!-- Footer Icons and Social Media -->
+
+</body>
+</html>
