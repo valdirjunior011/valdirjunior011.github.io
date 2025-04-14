@@ -1,22 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS and JavaScript, Fonts-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Valdir Junior</title>
   </head>
   <body>
     <!--Main Page and Links/Menu-->
-    <section class="header" id="First" >
+    <section class="header" id="First">
       <nav>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
@@ -28,12 +36,14 @@
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>  
+      </nav>
       <div class="text-box">
         <h1>Hi, I am Valdir Junior</h1>
-        <p>I am a IT Professional with long experience and solid knowledge, Implementationing and configurationing servers and their services.
-          <br>
-          <br>
+        <p>
+          I am a IT Professional with long experience and solid knowledge,
+          Implementationing and configurationing servers and their services.
+          <br />
+          <br />
           <a href="#about" class="hero-btn">Read More </a>
         </p>
       </div>
@@ -42,33 +52,43 @@
     <section class="aboutMe" id="about">
       <div class="intro">
         <h1>About Me</h1>
-        <br>
-        <p> I'm a multi-disciplinary IT engineer who have a experience on implementation and configuration of servers and their services and own such skills:          
-          <br>
-          <br>
-          Cloud -> AWS and Azure <br>
-          Configuration Manager -> Ansible, chef <br>
-          Provision Manager -> Terraform <br>
-          Logs -> GrayLog and SPlunk <br>
-          Monitoring -> PRTG, Zabbix, Prometheus <br>
-          Citrix Tecnologies -> Citrix Studio and Citrix Hypervision <br>
-          Microsoft Tecnologies and Services-> Windows Servers, Hyper-V, Active Diretory, DNS, DHCP, Federation, <br>
-          Active Directory, DNS, DHCP, GPO, File Server, IIS <br>
-          Firewalls -> Fortigate and Cisco ASA <br>
-          Vmware -> Vcenter and vpshere <br>
-          In Cisco switches do settings and troubleshooting (VLANs / spanning tree/port security) for example. <br>
-          routing settings in cisco routers (OSPFv2 / eigrp / RIPv2). <br>
-          Service automation with Powershell and shell script <br>
-          <br>
-          Where in many companys acting as lead of the infrastructure team in internal projects to implement or improve services.
-          <br>
-          I am a guy passionate about technology and learning new techniques and acquiring new knowledge <br>
-          It's been 12 years of career. <br>
-          Feel free to <a href="curriculum/Valdir_Junior.docx" class="btn">Download my updated Curriculum </a>
+        <br />
+        <p>
+          I'm a multi-disciplinary IT engineer who have a experience on
+          implementation and configuration of servers and their services and own
+          such skills:
+          <br />
+          <br />
+          Cloud -> AWS and Azure <br />
+          Configuration Manager -> Ansible, chef <br />
+          Provision Manager -> Terraform <br />
+          Logs -> GrayLog and SPlunk <br />
+          Monitoring -> PRTG, Zabbix, Prometheus <br />
+          Citrix Tecnologies -> Citrix Studio and Citrix Hypervision <br />
+          Microsoft Tecnologies and Services-> Windows Servers, Hyper-V, Active
+          Diretory, DNS, DHCP, Federation, <br />
+          Active Directory, DNS, DHCP, GPO, File Server, IIS <br />
+          Firewalls -> Fortigate and Cisco ASA <br />
+          Vmware -> Vcenter and vpshere <br />
+          In Cisco switches do settings and troubleshooting (VLANs / spanning
+          tree/port security) for example. <br />
+          routing settings in cisco routers (OSPFv2 / eigrp / RIPv2). <br />
+          Service automation with Powershell and shell script <br />
+          <br />
+          Where in many companys acting as lead of the infrastructure team in
+          internal projects to implement or improve services.
+          <br />
+          I am a guy passionate about technology and learning new techniques and
+          acquiring new knowledge <br />
+          It's been 12 years of career. <br />
+          Feel free to
+          <a href="curriculum/Valdir_Junior.docx" class="btn"
+            >Download my updated Curriculum
+          </a>
         </p>
-      </div> 
+      </div>
       <div class="img_profile"></div>
-      <i class="fa fa-arrow-up" onclick= "location.href = '#First'"></i> 
+      <i class="fa fa-arrow-up" onclick="location.href = '#First'"></i>
     </section>
     <!-- Experiences/Projects-->
     <!-- Contact Me-->
@@ -76,10 +96,10 @@
     <!---Javascript for Mobile Menu-->
     <script>
       var navLinks = document.getElementById("navLinks");
-      function showMenu(){
-        navLinks.style.right = "0"; 
+      function showMenu() {
+        navLinks.style.right = "0";
       }
-      function hideMenu(){
+      function hideMenu() {
         navLinks.style.right = "-200px";
       }
     </script>
