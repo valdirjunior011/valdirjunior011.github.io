@@ -29,8 +29,8 @@ jobs:
         run: npm ci
         working-directory: webpage
 
-      - name: Build and Export
-        run: npm run export
+      - name: Build site
+        run: npm run build
         working-directory: webpage
 
       - name: Deploy to GitHub Pages
