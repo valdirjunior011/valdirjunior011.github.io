@@ -90,7 +90,7 @@
 <br/>  
 
 
-![Snake animation](https://github.com/valdirjunior011/valdirjunior011.github.io/github-contribution-grid-snake.svg)
+![snake gif](https://valdirjunior011.github.io/github-contribution-grid-snake.svg)
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=valdirjunior011&&style=flat-square" align="center" />
