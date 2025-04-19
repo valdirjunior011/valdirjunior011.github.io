@@ -17,6 +17,9 @@ jobs:
           github_user_name: valdirjunior011
           outputs: |
             dist/github-contribution-grid-snake.svg
+          background_color: "#1d1f21"  # Dark background (almost black)
+          snake_color: "#ffb86c"        # Light color for the snake
+          grid_color: "#f8f8f2"         # Light grid color for contrast
 
       - name: Push the snake game to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
